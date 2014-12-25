@@ -1,0 +1,1390 @@
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 1505262,970 ops/s
+# Warmup Iteration   2: 606562,987 ops/s
+# Warmup Iteration   3: 776110,187 ops/s
+# Warmup Iteration   4: 2427920,565 ops/s
+# Warmup Iteration   5: 1961589,902 ops/s
+# Warmup Iteration   6: 2100915,836 ops/s
+# Warmup Iteration   7: 2813673,505 ops/s
+# Warmup Iteration   8: 2181767,432 ops/s
+# Warmup Iteration   9: 2293737,847 ops/s
+# Warmup Iteration  10: 2659633,903 ops/s
+Iteration   1: 2196956,532 ops/s
+Iteration   2: 2742365,844 ops/s
+Iteration   3: 2631808,677 ops/s
+Iteration   4: 2568943,914 ops/s
+Iteration   5: 2160257,855 ops/s
+Iteration   6: 2704469,636 ops/s
+Iteration   7: 2653557,544 ops/s
+Iteration   8: 2631170,035 ops/s
+Iteration   9: 2577536,292 ops/s
+Iteration  10: 2656944,852 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 1600129,469 ops/s
+# Warmup Iteration   2: 751007,519 ops/s
+# Warmup Iteration   3: 799810,617 ops/s
+# Warmup Iteration   4: 2506729,551 ops/s
+# Warmup Iteration   5: 790846,047 ops/s
+# Warmup Iteration   6: 2927085,975 ops/s
+# Warmup Iteration   7: 2702150,945 ops/s
+# Warmup Iteration   8: 2163722,209 ops/s
+# Warmup Iteration   9: 2751322,052 ops/s
+# Warmup Iteration  10: 2267423,403 ops/s
+Iteration   1: 2799761,865 ops/s
+Iteration   2: 2685317,372 ops/s
+Iteration   3: 2325604,378 ops/s
+Iteration   4: 2748788,489 ops/s
+Iteration   5: 2610082,586 ops/s
+Iteration   6: 2705296,071 ops/s
+Iteration   7: 2790177,422 ops/s
+Iteration   8: 2705803,953 ops/s
+Iteration   9: 2717558,917 ops/s
+Iteration  10: 2691982,834 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:41
+# Fork: 3 of 3
+# Warmup Iteration   1: 1707648,680 ops/s
+# Warmup Iteration   2: 713224,340 ops/s
+# Warmup Iteration   3: 763980,927 ops/s
+# Warmup Iteration   4: 2471636,675 ops/s
+# Warmup Iteration   5: 810103,896 ops/s
+# Warmup Iteration   6: 2794476,007 ops/s
+# Warmup Iteration   7: 2188160,419 ops/s
+# Warmup Iteration   8: 2616149,804 ops/s
+# Warmup Iteration   9: 2114318,845 ops/s
+# Warmup Iteration  10: 2585823,649 ops/s
+Iteration   1: 2543165,802 ops/s
+Iteration   2: 2156333,440 ops/s
+Iteration   3: 2635156,438 ops/s
+Iteration   4: 2611690,555 ops/s
+Iteration   5: 2526677,019 ops/s
+Iteration   6: 2544636,873 ops/s
+Iteration   7: 2607183,570 ops/s
+Iteration   8: 2661087,010 ops/s
+Iteration   9: 2599600,188 ops/s
+Iteration  10: 2622780,039 ops/s
+
+
+Result: 2593756,534 ±(99.9%) 113370,730 ops/s [Average]
+  Statistics: (min, avg, max) = (2156333,440, 2593756,534, 2799761,865), stdev = 169687,984
+  Confidence interval (99.9%): [2480385,804, 2707127,263]
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:16
+# Fork: 1 of 3
+# Warmup Iteration   1: 1577765,796 ops/s
+# Warmup Iteration   2: 708006,275 ops/s
+# Warmup Iteration   3: 665990,950 ops/s
+# Warmup Iteration   4: 2495848,435 ops/s
+# Warmup Iteration   5: 763689,156 ops/s
+# Warmup Iteration   6: 2900612,561 ops/s
+# Warmup Iteration   7: 2799537,762 ops/s
+# Warmup Iteration   8: 2343466,521 ops/s
+# Warmup Iteration   9: 2571943,341 ops/s
+# Warmup Iteration  10: 2173353,407 ops/s
+Iteration   1: 2622575,813 ops/s
+Iteration   2: 2810750,531 ops/s
+Iteration   3: 2277944,287 ops/s
+Iteration   4: 2720855,221 ops/s
+Iteration   5: 2736262,649 ops/s
+Iteration   6: 2719819,938 ops/s
+Iteration   7: 2623937,466 ops/s
+Iteration   8: 2317664,191 ops/s
+Iteration   9: 2613930,219 ops/s
+Iteration  10: 2713735,803 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:51
+# Fork: 2 of 3
+# Warmup Iteration   1: 1541816,587 ops/s
+# Warmup Iteration   2: 706127,076 ops/s
+# Warmup Iteration   3: 712137,297 ops/s
+# Warmup Iteration   4: 2615968,391 ops/s
+# Warmup Iteration   5: 2869171,036 ops/s
+# Warmup Iteration   6: 2234270,693 ops/s
+# Warmup Iteration   7: 2262271,592 ops/s
+# Warmup Iteration   8: 2742490,346 ops/s
+# Warmup Iteration   9: 2237261,177 ops/s
+# Warmup Iteration  10: 2716963,845 ops/s
+Iteration   1: 2254264,463 ops/s
+Iteration   2: 2643866,572 ops/s
+Iteration   3: 2755617,981 ops/s
+Iteration   4: 2731780,228 ops/s
+Iteration   5: 2273167,555 ops/s
+Iteration   6: 2720690,422 ops/s
+Iteration   7: 2680315,328 ops/s
+Iteration   8: 2751973,756 ops/s
+Iteration   9: 2788148,486 ops/s
+Iteration  10: 2772907,767 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:25
+# Fork: 3 of 3
+# Warmup Iteration   1: 1742946,501 ops/s
+# Warmup Iteration   2: 663546,903 ops/s
+# Warmup Iteration   3: 715116,924 ops/s
+# Warmup Iteration   4: 2542699,867 ops/s
+# Warmup Iteration   5: 2824938,220 ops/s
+# Warmup Iteration   6: 2047172,612 ops/s
+# Warmup Iteration   7: 2205586,882 ops/s
+# Warmup Iteration   8: 2695026,851 ops/s
+# Warmup Iteration   9: 2087855,452 ops/s
+# Warmup Iteration  10: 2581785,684 ops/s
+Iteration   1: 2619943,257 ops/s
+Iteration   2: 2132268,837 ops/s
+Iteration   3: 2616288,267 ops/s
+Iteration   4: 2543885,636 ops/s
+Iteration   5: 2342207,914 ops/s
+Iteration   6: 2551303,862 ops/s
+Iteration   7: 2452846,071 ops/s
+Iteration   8: 2428305,907 ops/s
+Iteration   9: 2476888,608 ops/s
+Iteration  10: 2234751,611 ops/s
+
+
+Result: 2564296,622 ±(99.9%) 131399,772 ops/s [Average]
+  Statistics: (min, avg, max) = (2132268,837, 2564296,622, 2810750,531), stdev = 196673,008
+  Confidence interval (99.9%): [2432896,849, 2695696,394]
+
+
+# Run complete. Total time: 00:02:31
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  2593756,534 ± 113370,730  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2564296,622 ± 131399,772  ops/s
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 2 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 1539939,642 ops/s
+# Warmup Iteration   2: 825716,108 ops/s
+# Warmup Iteration   3: 790370,198 ops/s
+# Warmup Iteration   4: 3881131,119 ops/s
+# Warmup Iteration   5: 518075,304 ops/s
+# Warmup Iteration   6: 2706798,536 ops/s
+# Warmup Iteration   7: 4593747,410 ops/s
+# Warmup Iteration   8: 3887335,153 ops/s
+# Warmup Iteration   9: 4688130,641 ops/s
+# Warmup Iteration  10: 4553522,733 ops/s
+Iteration   1: 4571257,030 ops/s
+Iteration   2: 4428696,080 ops/s
+Iteration   3: 4442703,014 ops/s
+Iteration   4: 4704205,632 ops/s
+Iteration   5: 3489895,320 ops/s
+Iteration   6: 5047630,854 ops/s
+Iteration   7: 4504531,555 ops/s
+Iteration   8: 5080278,093 ops/s
+Iteration   9: 5233828,101 ops/s
+Iteration  10: 4376723,941 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:05
+# Fork: 2 of 3
+# Warmup Iteration   1: 1915720,645 ops/s
+# Warmup Iteration   2: 741324,281 ops/s
+# Warmup Iteration   3: 926556,518 ops/s
+# Warmup Iteration   4: 3997155,981 ops/s
+# Warmup Iteration   5: 579517,669 ops/s
+# Warmup Iteration   6: 4520939,020 ops/s
+# Warmup Iteration   7: 4683429,353 ops/s
+# Warmup Iteration   8: 3918781,468 ops/s
+# Warmup Iteration   9: 4391865,594 ops/s
+# Warmup Iteration  10: 3629613,964 ops/s
+Iteration   1: 4587588,274 ops/s
+Iteration   2: 5015316,962 ops/s
+Iteration   3: 4516574,487 ops/s
+Iteration   4: 4147422,577 ops/s
+Iteration   5: 5218389,503 ops/s
+Iteration   6: 4506117,250 ops/s
+Iteration   7: 5036494,026 ops/s
+Iteration   8: 4519201,980 ops/s
+Iteration   9: 5127440,232 ops/s
+Iteration  10: 5241903,954 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 1805088,264 ops/s
+# Warmup Iteration   2: 719661,188 ops/s
+# Warmup Iteration   3: 873599,507 ops/s
+# Warmup Iteration   4: 4003911,109 ops/s
+# Warmup Iteration   5: 513227,286 ops/s
+# Warmup Iteration   6: 4213518,035 ops/s
+# Warmup Iteration   7: 4504430,410 ops/s
+# Warmup Iteration   8: 4472060,336 ops/s
+# Warmup Iteration   9: 4015120,473 ops/s
+# Warmup Iteration  10: 4384404,454 ops/s
+Iteration   1: 4650295,545 ops/s
+Iteration   2: 5118199,380 ops/s
+Iteration   3: 5095334,615 ops/s
+Iteration   4: 4221828,918 ops/s
+Iteration   5: 4542055,443 ops/s
+Iteration   6: 5007952,519 ops/s
+Iteration   7: 4510334,963 ops/s
+Iteration   8: 5124882,116 ops/s
+Iteration   9: 5289435,610 ops/s
+Iteration  10: 4341444,740 ops/s
+
+Result: 4723265,424 ±(99.9%) 278854,369 ops/s [Average]
+  Statistics: (min, avg, max) = (3489895,320, 4723265,424, 5289435,610), stdev = 417376,124
+  Confidence interval (99.9%): [4444411,055, 5002119,793]
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 2 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 1318478,028 ops/s
+# Warmup Iteration   2: 1704582,158 ops/s
+# Warmup Iteration   3: 203837,806 ops/s
+# Warmup Iteration   4: 576760,582 ops/s
+# Warmup Iteration   5: 2064253,513 ops/s
+# Warmup Iteration   6: 2273135,784 ops/s
+# Warmup Iteration   7: 55437,297 ops/s
+# Warmup Iteration   8: 2400023,392 ops/s
+# Warmup Iteration   9: 2108447,071 ops/s
+# Warmup Iteration  10: 2356874,025 ops/s
+Iteration   1: 2658557,320 ops/s
+Iteration   2: 2205285,074 ops/s
+Iteration   3: 2534141,728 ops/s
+Iteration   4: 2027672,793 ops/s
+Iteration   5: 2371523,856 ops/s
+Iteration   6: 2316520,253 ops/s
+Iteration   7: 2318164,459 ops/s
+Iteration   8: 1959986,024 ops/s
+Iteration   9: 2479060,866 ops/s
+Iteration  10: 2371233,582 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:50
+# Fork: 2 of 3
+# Warmup Iteration   1: 1357569,091 ops/s
+# Warmup Iteration   2: 1774501,602 ops/s
+# Warmup Iteration   3: 32822,072 ops/s
+# Warmup Iteration   4: 636272,052 ops/s
+# Warmup Iteration   5: 2256378,259 ops/s
+# Warmup Iteration   6: 1791639,795 ops/s
+# Warmup Iteration   7: 354491,517 ops/s
+# Warmup Iteration   8: 2247215,179 ops/s
+# Warmup Iteration   9: 1924578,884 ops/s
+# Warmup Iteration  10: 2157036,478 ops/s
+Iteration   1: 2142527,953 ops/s
+Iteration   2: 1820808,838 ops/s
+Iteration   3: 2085421,919 ops/s
+Iteration   4: 2143085,399 ops/s
+Iteration   5: 2105819,715 ops/s
+Iteration   6: 2229483,775 ops/s
+Iteration   7: 2170218,389 ops/s
+Iteration   8: 2339792,911 ops/s
+Iteration   9: 2365095,840 ops/s
+Iteration  10: 2166066,722 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:25
+# Fork: 3 of 3
+# Warmup Iteration   1: 1396973,509 ops/s
+# Warmup Iteration   2: 707401,830 ops/s
+# Warmup Iteration   3: 655671,179 ops/s
+# Warmup Iteration   4: 2288441,926 ops/s
+# Warmup Iteration   5: 2323845,846 ops/s
+# Warmup Iteration   6: 2089996,066 ops/s
+# Warmup Iteration   7: 2106566,457 ops/s
+# Warmup Iteration   8: 2484849,258 ops/s
+# Warmup Iteration   9: 2102520,834 ops/s
+# Warmup Iteration  10: 2446764,938 ops/s
+Iteration   1: 1766702,203 ops/s
+Iteration   2: 2047026,163 ops/s
+Iteration   3: 2092181,378 ops/s
+Iteration   4: 2266062,522 ops/s
+Iteration   5: 2206836,448 ops/s
+Iteration   6: 2169881,874 ops/s
+Iteration   7: 2022096,337 ops/s
+Iteration   8: 2130946,540 ops/s
+Iteration   9: 2167759,936 ops/s
+Iteration  10: 2112923,365 ops/s
+
+
+Result: 2193096,139 ±(99.9%) 128163,066 ops/s [Average]
+  Statistics: (min, avg, max) = (1766702,203, 2193096,139, 2658557,320), stdev = 191828,457
+  Confidence interval (99.9%): [2064933,074, 2321259,205]
+
+
+# Run complete. Total time: 00:02:29
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  4723265,424 ± 278854,369  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2193096,139 ± 128163,066  ops/s
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 3 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 2010599,622 ops/s
+# Warmup Iteration   2: 730395,911 ops/s
+# Warmup Iteration   3: 929771,018 ops/s
+# Warmup Iteration   4: 1606782,656 ops/s
+# Warmup Iteration   5: 5142778,362 ops/s
+# Warmup Iteration   6: 4736478,352 ops/s
+# Warmup Iteration   7: 5564804,912 ops/s
+# Warmup Iteration   8: 6373207,212 ops/s
+# Warmup Iteration   9: 5549668,150 ops/s
+# Warmup Iteration  10: 6024812,941 ops/s
+Iteration   1: 6281241,741 ops/s
+Iteration   2: 6373024,441 ops/s
+Iteration   3: 6485109,420 ops/s
+Iteration   4: 7382569,830 ops/s
+Iteration   5: 6257079,267 ops/s
+Iteration   6: 6263257,884 ops/s
+Iteration   7: 7391897,891 ops/s
+Iteration   8: 6208323,100 ops/s
+Iteration   9: 6859095,636 ops/s
+Iteration  10: 6332625,310 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:06
+# Fork: 2 of 3
+# Warmup Iteration   1: 2012124,429 ops/s
+# Warmup Iteration   2: 755386,074 ops/s
+# Warmup Iteration   3: 972872,497 ops/s
+# Warmup Iteration   4: 5276008,771 ops/s
+# Warmup Iteration   5: 4861154,546 ops/s
+# Warmup Iteration   6: 4818333,149 ops/s
+# Warmup Iteration   7: 4929070,269 ops/s
+# Warmup Iteration   8: 5959463,207 ops/s
+# Warmup Iteration   9: 5810432,342 ops/s
+# Warmup Iteration  10: 6064849,247 ops/s
+Iteration   1: 6189545,197 ops/s
+Iteration   2: 6277658,541 ops/s
+Iteration   3: 6217680,246 ops/s
+Iteration   4: 6087360,418 ops/s
+Iteration   5: 7194104,814 ops/s
+Iteration   6: 7198508,730 ops/s
+Iteration   7: 6189931,623 ops/s
+Iteration   8: 7312286,710 ops/s
+Iteration   9: 6127974,103 ops/s
+Iteration  10: 7176100,774 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:35
+# Fork: 3 of 3
+# Warmup Iteration   1: 1989308,463 ops/s
+# Warmup Iteration   2: 734327,325 ops/s
+# Warmup Iteration   3: 944064,355 ops/s
+# Warmup Iteration   4: 4811329,109 ops/s
+# Warmup Iteration   5: 4956201,434 ops/s
+# Warmup Iteration   6: 4747175,659 ops/s
+# Warmup Iteration   7: 5213670,415 ops/s
+# Warmup Iteration   8: 5914081,377 ops/s
+# Warmup Iteration   9: 5858688,047 ops/s
+# Warmup Iteration  10: 5523808,647 ops/s
+Iteration   1: 6309584,520 ops/s
+Iteration   2: 6367094,843 ops/s
+Iteration   3: 7087220,409 ops/s
+Iteration   4: 7215192,332 ops/s
+Iteration   5: 6185014,771 ops/s
+Iteration   6: 6255557,629 ops/s
+Iteration   7: 7293497,770 ops/s
+Iteration   8: 5995119,696 ops/s
+Iteration   9: 7320336,597 ops/s
+Iteration  10: 6377851,072 ops/s
+
+Result: 6607061,510 ±(99.9%) 328490,845 ops/s [Average]
+  Statistics: (min, avg, max) = (5995119,696, 6607061,510, 7391897,891), stdev = 491669,670
+  Confidence interval (99.9%): [6278570,665, 6935552,356]
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 3 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:11
+# Fork: 1 of 3
+# Warmup Iteration   1: 1548623,364 ops/s
+# Warmup Iteration   2: 639565,040 ops/s
+# Warmup Iteration   3: 2334891,549 ops/s
+# Warmup Iteration   4: 2096521,014 ops/s
+# Warmup Iteration   5: 2413513,774 ops/s
+# Warmup Iteration   6: 1873430,635 ops/s
+# Warmup Iteration   7: 2341333,816 ops/s
+# Warmup Iteration   8: 1842639,592 ops/s
+# Warmup Iteration   9: 2333034,667 ops/s
+# Warmup Iteration  10: 1927733,679 ops/s
+Iteration   1: 2241346,793 ops/s
+Iteration   2: 2296960,071 ops/s
+Iteration   3: 2221944,396 ops/s
+Iteration   4: 400293,166 ops/s
+Iteration   5: 2508321,246 ops/s
+Iteration   6: 2515123,112 ops/s
+Iteration   7: 2503896,722 ops/s
+Iteration   8: 2497541,116 ops/s
+Iteration   9: 2507266,527 ops/s
+Iteration  10: 2494500,087 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:47
+# Fork: 2 of 3
+# Warmup Iteration   1: 1387274,339 ops/s
+# Warmup Iteration   2: 690618,129 ops/s
+# Warmup Iteration   3: 651938,450 ops/s
+# Warmup Iteration   4: 2382455,912 ops/s
+# Warmup Iteration   5: 774428,501 ops/s
+# Warmup Iteration   6: 2733254,098 ops/s
+# Warmup Iteration   7: 2440827,079 ops/s
+# Warmup Iteration   8: 2407006,521 ops/s
+# Warmup Iteration   9: 2755691,965 ops/s
+# Warmup Iteration  10: 2378722,151 ops/s
+Iteration   1: 2736545,149 ops/s
+Iteration   2: 2371146,634 ops/s
+Iteration   3: 2734138,468 ops/s
+Iteration   4: 2426016,216 ops/s
+Iteration   5: 2733615,649 ops/s
+Iteration   6: 2726187,016 ops/s
+Iteration   7: 2730427,411 ops/s
+Iteration   8: 2732067,339 ops/s
+Iteration   9: 2371620,593 ops/s
+Iteration  10: 2725438,032 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 1411417,753 ops/s
+# Warmup Iteration   2: 711011,703 ops/s
+# Warmup Iteration   3: 599808,844 ops/s
+# Warmup Iteration   4: 2381330,532 ops/s
+# Warmup Iteration   5: 2258983,611 ops/s
+# Warmup Iteration   6: 2138374,384 ops/s
+# Warmup Iteration   7: 2198947,531 ops/s
+# Warmup Iteration   8: 2193259,787 ops/s
+# Warmup Iteration   9: 2192735,832 ops/s
+# Warmup Iteration  10: 2187311,919 ops/s
+Iteration   1: 2090464,365 ops/s
+Iteration   2: 2495525,973 ops/s
+Iteration   3: 2216059,072 ops/s
+Iteration   4: 2598500,919 ops/s
+Iteration   5: 2253481,291 ops/s
+Iteration   6: 2589645,262 ops/s
+Iteration   7: 2263773,603 ops/s
+Iteration   8: 2596766,288 ops/s
+Iteration   9: 2596904,366 ops/s
+Iteration  10: 2287806,359 ops/s
+
+
+Result: 2415444,108 ±(99.9%) 283983,094 ops/s [Average]
+  Statistics: (min, avg, max) = (400293,166, 2415444,108, 2736545,149), stdev = 425052,559
+  Confidence interval (99.9%): [2131461,014, 2699427,202]
+
+
+# Run complete. Total time: 00:02:25
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  6607061,510 ± 328490,845  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2415444,108 ± 283983,094  ops/s
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 2389209,742 ops/s
+# Warmup Iteration   2: 516196,781 ops/s
+# Warmup Iteration   3: 942442,165 ops/s
+# Warmup Iteration   4: 5260563,132 ops/s
+# Warmup Iteration   5: 5919947,321 ops/s
+# Warmup Iteration   6: 5781382,329 ops/s
+# Warmup Iteration   7: 5533850,241 ops/s
+# Warmup Iteration   8: 7191911,772 ops/s
+# Warmup Iteration   9: 6125815,499 ops/s
+# Warmup Iteration  10: 7600950,271 ops/s
+Iteration   1: 7481216,938 ops/s
+Iteration   2: 7658380,394 ops/s
+Iteration   3: 7489157,332 ops/s
+Iteration   4: 7393468,484 ops/s
+Iteration   5: 8881863,350 ops/s
+Iteration   6: 8820496,768 ops/s
+Iteration   7: 7554200,215 ops/s
+Iteration   8: 7750486,151 ops/s
+Iteration   9: 8601525,666 ops/s
+Iteration  10: 7520688,204 ops/s
+
+# Run progress: 16,67% complete, ETA 00:01:58
+# Fork: 2 of 3
+# Warmup Iteration   1: 2420595,139 ops/s
+# Warmup Iteration   2: 558407,041 ops/s
+# Warmup Iteration   3: 990638,643 ops/s
+# Warmup Iteration   4: 5543500,806 ops/s
+# Warmup Iteration   5: 6102664,030 ops/s
+# Warmup Iteration   6: 5973613,317 ops/s
+# Warmup Iteration   7: 5657191,658 ops/s
+# Warmup Iteration   8: 6791537,743 ops/s
+# Warmup Iteration   9: 7300693,579 ops/s
+# Warmup Iteration  10: 7667914,188 ops/s
+Iteration   1: 7636137,571 ops/s
+Iteration   2: 7522952,235 ops/s
+Iteration   3: 7614742,114 ops/s
+Iteration   4: 7620492,384 ops/s
+Iteration   5: 7569339,729 ops/s
+Iteration   6: 8866143,147 ops/s
+Iteration   7: 7545408,663 ops/s
+Iteration   8: 7722191,643 ops/s
+Iteration   9: 8935494,667 ops/s
+Iteration  10: 7516018,188 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:34
+# Fork: 3 of 3
+# Warmup Iteration   1: 2393034,719 ops/s
+# Warmup Iteration   2: 479093,496 ops/s
+# Warmup Iteration   3: 929757,543 ops/s
+# Warmup Iteration   4: 1652120,722 ops/s
+# Warmup Iteration   5: 5960259,769 ops/s
+# Warmup Iteration   6: 6402957,745 ops/s
+# Warmup Iteration   7: 6360148,458 ops/s
+# Warmup Iteration   8: 6325877,615 ops/s
+# Warmup Iteration   9: 7484331,731 ops/s
+# Warmup Iteration  10: 6448167,345 ops/s
+Iteration   1: 7362244,557 ops/s
+Iteration   2: 7460108,686 ops/s
+Iteration   3: 7320926,924 ops/s
+Iteration   4: 7448473,738 ops/s
+Iteration   5: 7341799,505 ops/s
+Iteration   6: 6891335,088 ops/s
+Iteration   7: 7436881,498 ops/s
+Iteration   8: 8773448,512 ops/s
+Iteration   9: 7388230,848 ops/s
+Iteration  10: 8774182,888 ops/s
+
+
+Result: 7796601,203 ±(99.9%) 393762,182 ops/s [Average]
+  Statistics: (min, avg, max) = (6891335,088, 7796601,203, 8935494,667), stdev = 589364,742
+  Confidence interval (99.9%): [7402839,020, 8190363,385]
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:12
+# Fork: 1 of 3
+# Warmup Iteration   1: 1376942,773 ops/s
+# Warmup Iteration   2: 694705,577 ops/s
+# Warmup Iteration   3: 668020,072 ops/s
+# Warmup Iteration   4: 2283991,795 ops/s
+# Warmup Iteration   5: 2540899,814 ops/s
+# Warmup Iteration   6: 2155366,442 ops/s
+# Warmup Iteration   7: 2146968,440 ops/s
+# Warmup Iteration   8: 2532431,175 ops/s
+# Warmup Iteration   9: 2152624,368 ops/s
+# Warmup Iteration  10: 2200976,500 ops/s
+Iteration   1: 2519948,719 ops/s
+Iteration   2: 2171124,906 ops/s
+Iteration   3: 2508024,771 ops/s
+Iteration   4: 2525995,711 ops/s
+Iteration   5: 2191080,890 ops/s
+Iteration   6: 2563643,827 ops/s
+Iteration   7: 2566904,255 ops/s
+Iteration   8: 2558029,161 ops/s
+Iteration   9: 2575371,480 ops/s
+Iteration  10: 2550678,706 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:48
+# Fork: 2 of 3
+# Warmup Iteration   1: 1661005,655 ops/s
+# Warmup Iteration   2: 1749952,714 ops/s
+# Warmup Iteration   3: 114034,533 ops/s
+# Warmup Iteration   4: 588707,731 ops/s
+# Warmup Iteration   5: 2275278,656 ops/s
+# Warmup Iteration   6: 682403,045 ops/s
+# Warmup Iteration   7: 2362362,184 ops/s
+# Warmup Iteration   8: 2603742,965 ops/s
+# Warmup Iteration   9: 2269464,353 ops/s
+# Warmup Iteration  10: 2243989,190 ops/s
+Iteration   1: 2577268,941 ops/s
+Iteration   2: 2226234,882 ops/s
+Iteration   3: 2563095,944 ops/s
+Iteration   4: 2233738,605 ops/s
+Iteration   5: 2561105,100 ops/s
+Iteration   6: 2256806,932 ops/s
+Iteration   7: 2535006,943 ops/s
+Iteration   8: 2554419,918 ops/s
+Iteration   9: 2557155,921 ops/s
+Iteration  10: 2274099,516 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 1530055,433 ops/s
+# Warmup Iteration   2: 728321,951 ops/s
+# Warmup Iteration   3: 601059,149 ops/s
+# Warmup Iteration   4: 2379319,977 ops/s
+# Warmup Iteration   5: 687507,358 ops/s
+# Warmup Iteration   6: 2415435,704 ops/s
+# Warmup Iteration   7: 2566505,597 ops/s
+# Warmup Iteration   8: 2506419,445 ops/s
+# Warmup Iteration   9: 2846381,261 ops/s
+# Warmup Iteration  10: 2485398,814 ops/s
+Iteration   1: 2458241,554 ops/s
+Iteration   2: 2841807,251 ops/s
+Iteration   3: 2467079,112 ops/s
+Iteration   4: 2820187,712 ops/s
+Iteration   5: 2652056,353 ops/s
+Iteration   6: 2436139,130 ops/s
+Iteration   7: 2827017,140 ops/s
+Iteration   8: 2828330,464 ops/s
+Iteration   9: 2814213,665 ops/s
+Iteration  10: 2431497,301 ops/s
+
+
+Result: 2521543,494 ±(99.9%) 127470,618 ops/s [Average]
+  Statistics: (min, avg, max) = (2171124,906, 2521543,494, 2841807,251), stdev = 190792,035
+  Confidence interval (99.9%): [2394072,876, 2649014,112]
+
+
+# Run complete. Total time: 00:02:29
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  7796601,203 ± 393762,182  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2521543,494 ± 127470,618  ops/s
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 5 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 2331239,339 ops/s
+# Warmup Iteration   2: 684910,119 ops/s
+# Warmup Iteration   3: 954594,242 ops/s
+# Warmup Iteration   4: 5579414,651 ops/s
+# Warmup Iteration   5: 5969541,887 ops/s
+# Warmup Iteration   6: 5916858,971 ops/s
+# Warmup Iteration   7: 5738672,702 ops/s
+# Warmup Iteration   8: 7126003,904 ops/s
+# Warmup Iteration   9: 5959572,354 ops/s
+# Warmup Iteration  10: 7592083,881 ops/s
+Iteration   1: 7437697,148 ops/s
+Iteration   2: 7473938,426 ops/s
+Iteration   3: 7302845,115 ops/s
+Iteration   4: 7537436,412 ops/s
+Iteration   5: 8641559,008 ops/s
+Iteration   6: 8846103,454 ops/s
+Iteration   7: 7522647,387 ops/s
+Iteration   8: 8723611,616 ops/s
+Iteration   9: 8816157,204 ops/s
+Iteration  10: 7637480,410 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:00
+# Fork: 2 of 3
+# Warmup Iteration   1: 2551183,132 ops/s
+# Warmup Iteration   2: 503662,820 ops/s
+# Warmup Iteration   3: 893650,379 ops/s
+# Warmup Iteration   4: 1696240,192 ops/s
+# Warmup Iteration   5: 6002457,415 ops/s
+# Warmup Iteration   6: 6425290,904 ops/s
+# Warmup Iteration   7: 6409573,640 ops/s
+# Warmup Iteration   8: 6354531,411 ops/s
+# Warmup Iteration   9: 7561008,847 ops/s
+# Warmup Iteration  10: 7529948,154 ops/s
+Iteration   1: 7510599,398 ops/s
+Iteration   2: 7377832,339 ops/s
+Iteration   3: 7473432,907 ops/s
+Iteration   4: 7595813,261 ops/s
+Iteration   5: 7626940,400 ops/s
+Iteration   6: 8848335,377 ops/s
+Iteration   7: 7798113,350 ops/s
+Iteration   8: 7500018,463 ops/s
+Iteration   9: 8733427,369 ops/s
+Iteration  10: 7604764,730 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:41
+# Fork: 3 of 3
+# Warmup Iteration   1: 2250102,734 ops/s
+# Warmup Iteration   2: 627276,596 ops/s
+# Warmup Iteration   3: 787392,068 ops/s
+# Warmup Iteration   4: 5532678,225 ops/s
+# Warmup Iteration   5: 5067410,065 ops/s
+# Warmup Iteration   6: 5709922,287 ops/s
+# Warmup Iteration   7: 5167198,023 ops/s
+# Warmup Iteration   8: 5229714,723 ops/s
+# Warmup Iteration   9: 6722447,124 ops/s
+# Warmup Iteration  10: 8051824,679 ops/s
+Iteration   1: 7815798,822 ops/s
+Iteration   2: 7466514,530 ops/s
+Iteration   3: 7731347,548 ops/s
+Iteration   4: 7914439,975 ops/s
+Iteration   5: 8069788,780 ops/s
+Iteration   6: 9069268,712 ops/s
+Iteration   7: 9199698,441 ops/s
+Iteration   8: 7811079,380 ops/s
+Iteration   9: 9170446,268 ops/s
+Iteration  10: 7777784,796 ops/s
+
+
+Result: 8001164,034 ±(99.9%) 417436,693 ops/s [Average]
+  Statistics: (min, avg, max) = (7302845,115, 8001164,034, 9199698,441), stdev = 624799,638
+  Confidence interval (99.9%): [7583727,341, 8418600,727]
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 5 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:15
+# Fork: 1 of 3
+# Warmup Iteration   1: 1668196,910 ops/s
+# Warmup Iteration   2: 1703186,183 ops/s
+# Warmup Iteration   3: 4534,443 ops/s
+# Warmup Iteration   4: 2421395,294 ops/s
+# Warmup Iteration   5: 691213,592 ops/s
+# Warmup Iteration   6: 2464624,134 ops/s
+# Warmup Iteration   7: 2746606,289 ops/s
+# Warmup Iteration   8: 2352803,233 ops/s
+# Warmup Iteration   9: 2676958,097 ops/s
+# Warmup Iteration  10: 2336290,815 ops/s
+Iteration   1: 2719176,763 ops/s
+Iteration   2: 2706796,760 ops/s
+Iteration   3: 2311174,843 ops/s
+Iteration   4: 2695295,921 ops/s
+Iteration   5: 2493141,539 ops/s
+Iteration   6: 2679179,705 ops/s
+Iteration   7: 2686288,421 ops/s
+Iteration   8: 2703906,606 ops/s
+Iteration   9: 2705026,834 ops/s
+Iteration  10: 2707357,995 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:49
+# Fork: 2 of 3
+# Warmup Iteration   1: 1735480,928 ops/s
+# Warmup Iteration   2: 658233,977 ops/s
+# Warmup Iteration   3: 706716,996 ops/s
+# Warmup Iteration   4: 2597971,240 ops/s
+# Warmup Iteration   5: 2002358,703 ops/s
+# Warmup Iteration   6: 2258378,270 ops/s
+# Warmup Iteration   7: 2563859,404 ops/s
+# Warmup Iteration   8: 2173771,047 ops/s
+# Warmup Iteration   9: 2562654,945 ops/s
+# Warmup Iteration  10: 2252858,524 ops/s
+Iteration   1: 2554419,803 ops/s
+Iteration   2: 2517923,954 ops/s
+Iteration   3: 2533666,029 ops/s
+Iteration   4: 2175452,054 ops/s
+Iteration   5: 2562626,967 ops/s
+Iteration   6: 2571107,171 ops/s
+Iteration   7: 2588995,154 ops/s
+Iteration   8: 2592250,455 ops/s
+Iteration   9: 2603314,918 ops/s
+Iteration  10: 2591362,282 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 1528268,676 ops/s
+# Warmup Iteration   2: 702603,151 ops/s
+# Warmup Iteration   3: 589861,267 ops/s
+# Warmup Iteration   4: 2242333,887 ops/s
+# Warmup Iteration   5: 2091255,110 ops/s
+# Warmup Iteration   6: 2063106,005 ops/s
+# Warmup Iteration   7: 2046252,806 ops/s
+# Warmup Iteration   8: 2037771,872 ops/s
+# Warmup Iteration   9: 2041040,505 ops/s
+# Warmup Iteration  10: 2393428,065 ops/s
+Iteration   1: 2029038,577 ops/s
+Iteration   2: 2031288,778 ops/s
+Iteration   3: 2400867,700 ops/s
+Iteration   4: 2099696,003 ops/s
+Iteration   5: 2425326,862 ops/s
+Iteration   6: 2114532,542 ops/s
+Iteration   7: 2429568,670 ops/s
+Iteration   8: 2379328,396 ops/s
+Iteration   9: 2308662,623 ops/s
+Iteration  10: 2117519,240 ops/s
+
+
+Result: 2467809,786 ±(99.9%) 149358,885 ops/s [Average]
+  Statistics: (min, avg, max) = (2029038,577, 2467809,786, 2719176,763), stdev = 223553,365
+  Confidence interval (99.9%): [2318450,900, 2617168,671]
+
+
+# Run complete. Total time: 00:02:27
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  8001164,034 ± 417436,693  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2467809,786 ± 149358,885  ops/s
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 1259511,334 ops/s
+# Warmup Iteration   2: 842958,075 ops/s
+# Warmup Iteration   3: 1647349,557 ops/s
+# Warmup Iteration   4: 6490429,028 ops/s
+# Warmup Iteration   5: 6035893,272 ops/s
+# Warmup Iteration   6: 6717058,050 ops/s
+# Warmup Iteration   7: 6296015,628 ops/s
+# Warmup Iteration   8: 7968480,958 ops/s
+# Warmup Iteration   9: 7812193,501 ops/s
+# Warmup Iteration  10: 7373791,452 ops/s
+Iteration   1: 7842412,334 ops/s
+Iteration   2: 7332563,907 ops/s
+Iteration   3: 7870472,979 ops/s
+Iteration   4: 8096872,417 ops/s
+Iteration   5: 7897656,710 ops/s
+Iteration   6: 9239870,486 ops/s
+Iteration   7: 7886022,586 ops/s
+Iteration   8: 8115714,667 ops/s
+Iteration   9: 9089430,013 ops/s
+Iteration  10: 7712645,568 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 2527767,868 ops/s
+# Warmup Iteration   2: 401461,270 ops/s
+# Warmup Iteration   3: 708514,290 ops/s
+# Warmup Iteration   4: 1620969,651 ops/s
+# Warmup Iteration   5: 6144074,091 ops/s
+# Warmup Iteration   6: 5915008,524 ops/s
+# Warmup Iteration   7: 6602954,220 ops/s
+# Warmup Iteration   8: 6574888,376 ops/s
+# Warmup Iteration   9: 7467402,551 ops/s
+# Warmup Iteration  10: 7798710,468 ops/s
+Iteration   1: 7852993,882 ops/s
+Iteration   2: 7968814,084 ops/s
+Iteration   3: 7726386,345 ops/s
+Iteration   4: 7831115,634 ops/s
+Iteration   5: 7703030,962 ops/s
+Iteration   6: 8867115,694 ops/s
+Iteration   7: 8983557,287 ops/s
+Iteration   8: 8407351,183 ops/s
+Iteration   9: 7758025,766 ops/s
+Iteration  10: 9100161,097 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:50
+# Fork: 3 of 3
+# Warmup Iteration   1: 2652466,301 ops/s
+# Warmup Iteration   2: 706885,478 ops/s
+# Warmup Iteration   3: 205067,428 ops/s
+# Warmup Iteration   4: 1596924,637 ops/s
+# Warmup Iteration   5: 6003813,238 ops/s
+# Warmup Iteration   6: 6192217,760 ops/s
+# Warmup Iteration   7: 6256150,497 ops/s
+# Warmup Iteration   8: 6357563,236 ops/s
+# Warmup Iteration   9: 7262673,245 ops/s
+# Warmup Iteration  10: 6978852,321 ops/s
+Iteration   1: 7274033,170 ops/s
+Iteration   2: 7017003,786 ops/s
+Iteration   3: 7151882,117 ops/s
+Iteration   4: 7163870,590 ops/s
+Iteration   5: 7461766,456 ops/s
+Iteration   6: 8258250,338 ops/s
+Iteration   7: 8457396,051 ops/s
+Iteration   8: 7263523,156 ops/s
+Iteration   9: 8449852,993 ops/s
+Iteration  10: 7661025,292 ops/s
+
+
+Result: 7981360,585 ±(99.9%) 412130,382 ops/s [Average]
+  Statistics: (min, avg, max) = (7017003,786, 7981360,585, 9239870,486), stdev = 616857,401
+  Confidence interval (99.9%): [7569230,203, 8393490,967]
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:22
+# Fork: 1 of 3
+# Warmup Iteration   1: 1725678,180 ops/s
+# Warmup Iteration   2: 648549,856 ops/s
+# Warmup Iteration   3: 2408157,091 ops/s
+# Warmup Iteration   4: 2170082,344 ops/s
+# Warmup Iteration   5: 2563206,871 ops/s
+# Warmup Iteration   6: 1982400,163 ops/s
+# Warmup Iteration   7: 2123660,640 ops/s
+# Warmup Iteration   8: 2531011,220 ops/s
+# Warmup Iteration   9: 2083120,306 ops/s
+# Warmup Iteration  10: 2514690,578 ops/s
+Iteration   1: 2515545,962 ops/s
+Iteration   2: 2517805,340 ops/s
+Iteration   3: 716445,306 ops/s
+Iteration   4: 2646436,211 ops/s
+Iteration   5: 2746806,693 ops/s
+Iteration   6: 2713653,743 ops/s
+Iteration   7: 2715801,007 ops/s
+Iteration   8: 2716811,912 ops/s
+Iteration   9: 2711529,128 ops/s
+Iteration  10: 2706581,146 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 1622870,936 ops/s
+# Warmup Iteration   2: 1629890,405 ops/s
+# Warmup Iteration   3: 92410,514 ops/s
+# Warmup Iteration   4: 2085074,905 ops/s
+# Warmup Iteration   5: 2279118,327 ops/s
+# Warmup Iteration   6: 1778992,534 ops/s
+# Warmup Iteration   7: 2207504,182 ops/s
+# Warmup Iteration   8: 1727294,318 ops/s
+# Warmup Iteration   9: 2202325,994 ops/s
+# Warmup Iteration  10: 1839394,192 ops/s
+Iteration   1: 2176738,784 ops/s
+Iteration   2: 2184820,385 ops/s
+Iteration   3: 2175342,132 ops/s
+Iteration   4: 2139841,233 ops/s
+Iteration   5: 2163765,586 ops/s
+Iteration   6: 111098,256 ops/s
+Iteration   7: 2339408,006 ops/s
+Iteration   8: 2390505,605 ops/s
+Iteration   9: 2363639,653 ops/s
+Iteration  10: 2370014,962 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:26
+# Fork: 3 of 3
+# Warmup Iteration   1: 1722450,272 ops/s
+# Warmup Iteration   2: 1734277,608 ops/s
+# Warmup Iteration   3: 12940,533 ops/s
+# Warmup Iteration   4: 2469303,915 ops/s
+# Warmup Iteration   5: 2218105,185 ops/s
+# Warmup Iteration   6: 2234273,872 ops/s
+# Warmup Iteration   7: 2636856,190 ops/s
+# Warmup Iteration   8: 2071026,993 ops/s
+# Warmup Iteration   9: 2147950,431 ops/s
+# Warmup Iteration  10: 2605946,213 ops/s
+Iteration   1: 2177498,132 ops/s
+Iteration   2: 2588104,985 ops/s
+Iteration   3: 2586384,127 ops/s
+Iteration   4: 314342,008 ops/s
+Iteration   5: 2699617,224 ops/s
+Iteration   6: 2823191,092 ops/s
+Iteration   7: 2797949,990 ops/s
+Iteration   8: 2799464,281 ops/s
+Iteration   9: 2799417,652 ops/s
+Iteration  10: 2802286,589 ops/s
+
+
+Result: 2317028,238 ±(99.9%) 467819,042 ops/s [Average]
+  Statistics: (min, avg, max) = (111098,256, 2317028,238, 2823191,092), stdev = 700209,572
+  Confidence interval (99.9%): [1849209,196, 2784847,280]
+
+
+# Run complete. Total time: 00:02:32
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  7981360,585 ± 412130,382  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2317028,238 ± 467819,042  ops/s
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 7 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 2188883,606 ops/s
+# Warmup Iteration   2: 528630,996 ops/s
+# Warmup Iteration   3: 1638134,030 ops/s
+# Warmup Iteration   4: 6035348,276 ops/s
+# Warmup Iteration   5: 6156861,987 ops/s
+# Warmup Iteration   6: 6736170,907 ops/s
+# Warmup Iteration   7: 6576394,245 ops/s
+# Warmup Iteration   8: 7676812,540 ops/s
+# Warmup Iteration   9: 7766975,319 ops/s
+# Warmup Iteration  10: 7840169,111 ops/s
+Iteration   1: 7395102,493 ops/s
+Iteration   2: 7752344,063 ops/s
+Iteration   3: 7583672,352 ops/s
+Iteration   4: 7581084,700 ops/s
+Iteration   5: 8097528,253 ops/s
+Iteration   6: 8659057,392 ops/s
+Iteration   7: 8910643,794 ops/s
+Iteration   8: 7768564,659 ops/s
+Iteration   9: 9028472,371 ops/s
+Iteration  10: 7626867,004 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:28
+# Fork: 2 of 3
+# Warmup Iteration   1: 1254219,654 ops/s
+# Warmup Iteration   2: 657040,230 ops/s
+# Warmup Iteration   3: 1641730,498 ops/s
+# Warmup Iteration   4: 6243950,551 ops/s
+# Warmup Iteration   5: 6243663,604 ops/s
+# Warmup Iteration   6: 6511496,304 ops/s
+# Warmup Iteration   7: 6636989,721 ops/s
+# Warmup Iteration   8: 7607869,920 ops/s
+# Warmup Iteration   9: 7822575,348 ops/s
+# Warmup Iteration  10: 7733263,182 ops/s
+Iteration   1: 7467781,662 ops/s
+Iteration   2: 7744398,587 ops/s
+Iteration   3: 7710803,385 ops/s
+Iteration   4: 8568376,724 ops/s
+Iteration   5: 8906341,876 ops/s
+Iteration   6: 8005799,485 ops/s
+Iteration   7: 7711967,568 ops/s
+Iteration   8: 8980214,841 ops/s
+Iteration   9: 7575892,960 ops/s
+Iteration  10: 8930795,123 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:57
+# Fork: 3 of 3
+# Warmup Iteration   1: 2312129,941 ops/s
+# Warmup Iteration   2: 1155685,704 ops/s
+# Warmup Iteration   3: 662516,512 ops/s
+# Warmup Iteration   4: 5511534,268 ops/s
+# Warmup Iteration   5: 5617168,504 ops/s
+# Warmup Iteration   6: 6206541,727 ops/s
+# Warmup Iteration   7: 5740258,959 ops/s
+# Warmup Iteration   8: 7056121,008 ops/s
+# Warmup Iteration   9: 7709555,156 ops/s
+# Warmup Iteration  10: 7270755,192 ops/s
+Iteration   1: 7660602,953 ops/s
+Iteration   2: 7611019,767 ops/s
+Iteration   3: 7595267,690 ops/s
+Iteration   4: 7552797,019 ops/s
+Iteration   5: 7769507,520 ops/s
+Iteration   6: 8742081,082 ops/s
+Iteration   7: 8939140,308 ops/s
+Iteration   8: 7029104,566 ops/s
+Iteration   9: 8717965,802 ops/s
+Iteration  10: 7570321,240 ops/s
+
+
+Result: 8039783,908 ±(99.9%) 405408,959 ops/s [Average]
+  Statistics: (min, avg, max) = (7029104,566, 8039783,908, 9028472,371), stdev = 606797,090
+  Confidence interval (99.9%): [7634374,949, 8445192,867]
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 7 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:24
+# Fork: 1 of 3
+# Warmup Iteration   1: 1743705,219 ops/s
+# Warmup Iteration   2: 636879,605 ops/s
+# Warmup Iteration   3: 2440200,906 ops/s
+# Warmup Iteration   4: 685087,590 ops/s
+# Warmup Iteration   5: 2547731,890 ops/s
+# Warmup Iteration   6: 2836090,884 ops/s
+# Warmup Iteration   7: 2429605,443 ops/s
+# Warmup Iteration   8: 2810239,566 ops/s
+# Warmup Iteration   9: 2408568,231 ops/s
+# Warmup Iteration  10: 2803717,276 ops/s
+Iteration   1: 2440511,299 ops/s
+Iteration   2: 2787698,990 ops/s
+Iteration   3: 2791922,473 ops/s
+Iteration   4: 2777026,323 ops/s
+Iteration   5: 2785127,203 ops/s
+Iteration   6: 2774049,341 ops/s
+Iteration   7: 2453667,825 ops/s
+Iteration   8: 2797231,252 ops/s
+Iteration   9: 2785149,732 ops/s
+Iteration  10: 2787570,759 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:54
+# Fork: 2 of 3
+# Warmup Iteration   1: 1549874,753 ops/s
+# Warmup Iteration   2: 721461,634 ops/s
+# Warmup Iteration   3: 614059,332 ops/s
+# Warmup Iteration   4: 2358982,397 ops/s
+# Warmup Iteration   5: 2311673,457 ops/s
+# Warmup Iteration   6: 2343881,288 ops/s
+# Warmup Iteration   7: 2346864,800 ops/s
+# Warmup Iteration   8: 2339629,018 ops/s
+# Warmup Iteration   9: 2325150,586 ops/s
+# Warmup Iteration  10: 2316067,363 ops/s
+Iteration   1: 2294943,281 ops/s
+Iteration   2: 2726794,563 ops/s
+Iteration   3: 2375908,619 ops/s
+Iteration   4: 2730119,285 ops/s
+Iteration   5: 2411890,962 ops/s
+Iteration   6: 2779422,751 ops/s
+Iteration   7: 2397213,904 ops/s
+Iteration   8: 2790415,730 ops/s
+Iteration   9: 2773815,232 ops/s
+Iteration  10: 2460350,223 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:26
+# Fork: 3 of 3
+# Warmup Iteration   1: 1562907,478 ops/s
+# Warmup Iteration   2: 728566,844 ops/s
+# Warmup Iteration   3: 602307,013 ops/s
+# Warmup Iteration   4: 2374373,568 ops/s
+# Warmup Iteration   5: 682424,525 ops/s
+# Warmup Iteration   6: 2461977,073 ops/s
+# Warmup Iteration   7: 2522516,140 ops/s
+# Warmup Iteration   8: 2773795,304 ops/s
+# Warmup Iteration   9: 2411362,192 ops/s
+# Warmup Iteration  10: 2405500,350 ops/s
+Iteration   1: 2778306,196 ops/s
+Iteration   2: 2410053,976 ops/s
+Iteration   3: 2759362,155 ops/s
+Iteration   4: 2483648,056 ops/s
+Iteration   5: 2755270,744 ops/s
+Iteration   6: 2396365,728 ops/s
+Iteration   7: 2747683,411 ops/s
+Iteration   8: 2718740,478 ops/s
+Iteration   9: 2729343,864 ops/s
+Iteration  10: 2421010,521 ops/s
+
+
+Result: 2637353,829 ±(99.9%) 118307,843 ops/s [Average]
+  Statistics: (min, avg, max) = (2294943,281, 2637353,829, 2797231,252), stdev = 177077,623
+  Confidence interval (99.9%): [2519045,986, 2755661,672]
+
+
+# Run complete. Total time: 00:02:40
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  8039783,908 ± 405408,959  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2637353,829 ± 118307,843  ops/s
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.concurrentPut
+
+# Run progress: 0,00% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 2173214,197 ops/s
+# Warmup Iteration   2: 1299830,506 ops/s
+# Warmup Iteration   3: 584867,519 ops/s
+# Warmup Iteration   4: 1585485,222 ops/s
+# Warmup Iteration   5: 6137385,374 ops/s
+# Warmup Iteration   6: 6621275,024 ops/s
+# Warmup Iteration   7: 6381492,060 ops/s
+# Warmup Iteration   8: 6391891,693 ops/s
+# Warmup Iteration   9: 7342116,489 ops/s
+# Warmup Iteration  10: 7325665,744 ops/s
+Iteration   1: 7397236,077 ops/s
+Iteration   2: 7443711,231 ops/s
+Iteration   3: 7524068,590 ops/s
+Iteration   4: 7338425,176 ops/s
+Iteration   5: 7508203,623 ops/s
+Iteration   6: 7363073,032 ops/s
+Iteration   7: 7862065,416 ops/s
+Iteration   8: 7873933,773 ops/s
+Iteration   9: 8791199,708 ops/s
+Iteration  10: 8609611,114 ops/s
+
+# Run progress: 16,67% complete, ETA 00:02:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 2214177,092 ops/s
+# Warmup Iteration   2: 553807,538 ops/s
+# Warmup Iteration   3: 266654,518 ops/s
+# Warmup Iteration   4: 1664717,174 ops/s
+# Warmup Iteration   5: 6038314,241 ops/s
+# Warmup Iteration   6: 6619187,721 ops/s
+# Warmup Iteration   7: 6542931,667 ops/s
+# Warmup Iteration   8: 6748664,216 ops/s
+# Warmup Iteration   9: 7838527,868 ops/s
+# Warmup Iteration  10: 7887935,374 ops/s
+Iteration   1: 7586706,634 ops/s
+Iteration   2: 7548586,105 ops/s
+Iteration   3: 7788163,811 ops/s
+Iteration   4: 7742411,704 ops/s
+Iteration   5: 7494733,719 ops/s
+Iteration   6: 7859066,823 ops/s
+Iteration   7: 8873703,889 ops/s
+Iteration   8: 9109401,481 ops/s
+Iteration   9: 8404861,263 ops/s
+Iteration  10: 7657901,665 ops/s
+
+# Run progress: 33,33% complete, ETA 00:01:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 2219108,643 ops/s
+# Warmup Iteration   2: 523273,183 ops/s
+# Warmup Iteration   3: 3915328,911 ops/s
+# Warmup Iteration   4: 5325102,685 ops/s
+# Warmup Iteration   5: 5794551,520 ops/s
+# Warmup Iteration   6: 5931280,794 ops/s
+# Warmup Iteration   7: 6788263,715 ops/s
+# Warmup Iteration   8: 6982653,496 ops/s
+# Warmup Iteration   9: 7697002,620 ops/s
+# Warmup Iteration  10: 7358567,320 ops/s
+Iteration   1: 7460375,155 ops/s
+Iteration   2: 7607045,176 ops/s
+Iteration   3: 8382643,163 ops/s
+Iteration   4: 8519567,396 ops/s
+Iteration   5: 8793854,131 ops/s
+Iteration   6: 8857088,659 ops/s
+Iteration   7: 7423553,127 ops/s
+Iteration   8: 8713285,530 ops/s
+Iteration   9: 7526630,295 ops/s
+Iteration  10: 8896035,477 ops/s
+
+
+Result: 7998571,431 ±(99.9%) 395218,882 ops/s [Average]
+  Statistics: (min, avg, max) = (7338425,176, 7998571,431, 9109401,481), stdev = 591545,062
+  Confidence interval (99.9%): [7603352,549, 8393790,314]
+
+
+# VM invoker: E:\jdk1.8.0\jre\bin\java.exe
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.kodcu.MapPutter.synchronizedPut
+
+# Run progress: 50,00% complete, ETA 00:01:25
+# Fork: 1 of 3
+# Warmup Iteration   1: 1574482,557 ops/s
+# Warmup Iteration   2: 717520,881 ops/s
+# Warmup Iteration   3: 611807,534 ops/s
+# Warmup Iteration   4: 2315328,717 ops/s
+# Warmup Iteration   5: 2212767,006 ops/s
+# Warmup Iteration   6: 2181816,262 ops/s
+# Warmup Iteration   7: 2155072,446 ops/s
+# Warmup Iteration   8: 2164249,923 ops/s
+# Warmup Iteration   9: 2152729,259 ops/s
+# Warmup Iteration  10: 2528299,499 ops/s
+Iteration   1: 2128187,576 ops/s
+Iteration   2: 2140756,750 ops/s
+Iteration   3: 2541725,129 ops/s
+Iteration   4: 2150152,336 ops/s
+Iteration   5: 2540231,775 ops/s
+Iteration   6: 2559981,821 ops/s
+Iteration   7: 2238453,630 ops/s
+Iteration   8: 2553187,401 ops/s
+Iteration   9: 2527561,452 ops/s
+Iteration  10: 2499347,172 ops/s
+
+# Run progress: 66,67% complete, ETA 00:00:54
+# Fork: 2 of 3
+# Warmup Iteration   1: 1720160,441 ops/s
+# Warmup Iteration   2: 1670523,368 ops/s
+# Warmup Iteration   3: 6632,972 ops/s
+# Warmup Iteration   4: 2409446,701 ops/s
+# Warmup Iteration   5: 707404,601 ops/s
+# Warmup Iteration   6: 2576341,803 ops/s
+# Warmup Iteration   7: 2394629,984 ops/s
+# Warmup Iteration   8: 2398606,000 ops/s
+# Warmup Iteration   9: 2701444,242 ops/s
+# Warmup Iteration  10: 2419355,592 ops/s
+Iteration   1: 2701604,839 ops/s
+Iteration   2: 2701036,116 ops/s
+Iteration   3: 2703835,570 ops/s
+Iteration   4: 2299799,482 ops/s
+Iteration   5: 2677887,323 ops/s
+Iteration   6: 2645323,691 ops/s
+Iteration   7: 2687876,708 ops/s
+Iteration   8: 2693379,028 ops/s
+Iteration   9: 2710616,921 ops/s
+Iteration  10: 2708363,064 ops/s
+
+# Run progress: 83,33% complete, ETA 00:00:26
+# Fork: 3 of 3
+# Warmup Iteration   1: 1563075,556 ops/s
+# Warmup Iteration   2: 702134,917 ops/s
+# Warmup Iteration   3: 673833,386 ops/s
+# Warmup Iteration   4: 2370088,775 ops/s
+# Warmup Iteration   5: 2415627,168 ops/s
+# Warmup Iteration   6: 2408180,760 ops/s
+# Warmup Iteration   7: 2717588,610 ops/s
+# Warmup Iteration   8: 2303345,054 ops/s
+# Warmup Iteration   9: 2296240,405 ops/s
+# Warmup Iteration  10: 2705523,112 ops/s
+Iteration   1: 2277189,340 ops/s
+Iteration   2: 2706724,722 ops/s
+Iteration   3: 2339318,772 ops/s
+Iteration   4: 2742781,502 ops/s
+Iteration   5: 2760372,922 ops/s
+Iteration   6: 2470845,768 ops/s
+Iteration   7: 2766333,104 ops/s
+Iteration   8: 2772438,900 ops/s
+Iteration   9: 2775748,775 ops/s
+Iteration  10: 2705213,520 ops/s
+
+
+Result: 2557542,504 ±(99.9%) 138949,061 ops/s [Average]
+  Statistics: (min, avg, max) = (2128187,576, 2557542,504, 2775748,775), stdev = 207972,429
+  Confidence interval (99.9%): [2418593,443, 2696491,564]
+
+
+# Run complete. Total time: 00:02:37
+
+Benchmark                 Mode  Samples        Score        Error  Units
+c.k.MapPutter.concurrentPut    thrpt       30  7998571,431 ± 395218,882  ops/s
+c.k.MapPutter.synchronizedPut    thrpt       30  2557542,504 ± 138949,061  ops/s
+
+Th: 1 - concurrentPut - 2593756.5335054165
+Th: 1 - synchronizedPut - 2564296.6215144917
+Th: 2 - concurrentPut - 4723265.423796926
+Th: 2 - synchronizedPut - 2193096.1394239324
+Th: 3 - concurrentPut - 6607061.510470514
+Th: 3 - synchronizedPut - 2415444.1080301558
+Th: 4 - concurrentPut - 7796601.202894423
+Th: 4 - synchronizedPut - 2521543.493663794
+Th: 5 - concurrentPut - 8001164.034149834
+Th: 5 - synchronizedPut - 2467809.785508546
+Th: 6 - concurrentPut - 7981360.584973617
+Th: 6 - synchronizedPut - 2317028.2376625375
+Th: 7 - concurrentPut - 8039783.9079435235
+Th: 7 - synchronizedPut - 2637353.829200734
+Th: 8 - concurrentPut - 7998571.431447032
+Th: 8 - synchronizedPut - 2557542.503517102
+
+Process finished with exit code 0
