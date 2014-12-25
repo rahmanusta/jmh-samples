@@ -35,7 +35,7 @@ public class MapPutter {
     private static final int THREAD_COUNT = 2_000_000;
     private static final int ITERATION_COUNT = 10;
     private static final int WARMUP_COUNT = 10;
-    private static final int FORK_COUNT = 10;
+    private static final int FORK_COUNT = 3;
 
     @Setup(Level.Trial)
     public void init() {
@@ -87,23 +87,6 @@ public class MapPutter {
             results.add(run);
 
         }
-
-        List<RunResult> collect1 = results.stream().flatMap(Collection::stream).collect(Collectors.toList());
-
-        List<String> connPut = collect1.stream().filter(r -> r.getPrimaryResult().getLabel().equals("connPut"))
-                .map(r -> r.getPrimaryResult().getScore()).map(String::valueOf).collect(Collectors.toList());
-
-        String connPutJoin = String.join(",", connPut);
-
-        System.out.println(connPutJoin);
-
-        List<String> syncPut = collect1.stream().filter(r -> r.getPrimaryResult().getLabel().equals("syncPut"))
-                .map(r -> r.getPrimaryResult().getScore()).map(String::valueOf).collect(Collectors.toList());
-
-        String syncPutJoin = String.join(",", syncPut);
-
-        System.out.println(syncPutJoin);
-
 
         for (Collection<RunResult> result : results) {
             for (RunResult runResult : result) {
