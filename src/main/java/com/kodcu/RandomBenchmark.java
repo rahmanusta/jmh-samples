@@ -35,10 +35,9 @@ public class RandomBenchmark {
 
     private static final int START = 1;
     private static final int END = 2_000_000;
-    private static final int ITERATION_COUNT = 5;
-    private static final int WARMUP_COUNT = 5;
+    private static final int ITERATION_COUNT = 10;
+    private static final int WARMUP_COUNT = 10;
     private static final int FORK_COUNT = 3;
-    private static final int THREAD_COUNT = 32;
 
 
     @Benchmark
@@ -62,59 +61,5 @@ public class RandomBenchmark {
 
         hole.consume(result);
     }
-
-    public static void main(String[] args) throws RunnerException, IOException {
-
-        List<Integer> collect = IntStream.rangeClosed(1, THREAD_COUNT)
-                .boxed().collect(Collectors.toList());
-
-        List<Collection<RunResult>> results = new LinkedList<>();
-
-        for (Integer t : collect) {
-            Options opt = new OptionsBuilder()
-                    .include(RandomBenchmark.class.getSimpleName())
-                    .output("random-" + t + "-output.txt")
-                    .threads(t)
-                    .build();
-
-            Collection<RunResult> run = new Runner(opt).run();
-
-            results.add(run);
-
-        }
-
-        for (Collection<RunResult> result : results) {
-            for (RunResult runResult : result) {
-                Result primaryResult = runResult.getPrimaryResult();
-
-                String th = "Th: " + runResult.getParams().getThreads() + " - " + primaryResult.getLabel() + " - " + primaryResult.getScore();
-                Files.write(Paths.get("./random-total-output.txt"),th.getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
-                System.out.println(th);
-            }
-        }
-
-
-        List<RunResult> collect1 = results.stream().flatMap(Collection::stream).collect(Collectors.toList());
-
-        List<String> connPut = collect1.stream().filter(r -> r.getPrimaryResult().getLabel().equals("classicRandom"))
-                .map(r -> r.getPrimaryResult().getScore()).map(String::valueOf).collect(Collectors.toList());
-
-        String connPutJoin = String.join(",", connPut);
-
-        System.out.println(connPutJoin);
-
-        Files.write(Paths.get("./random-total-output.txt"),connPutJoin.concat("\n").getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
-
-        List<String> syncPut = collect1.stream().filter(r -> r.getPrimaryResult().getLabel().equals("threadLocalRandom"))
-                .map(r -> r.getPrimaryResult().getScore()).map(String::valueOf).collect(Collectors.toList());
-
-        String syncPutJoin = String.join(",", syncPut);
-
-        System.out.println(syncPutJoin);
-        Files.write(Paths.get("./random-total-output.txt"),syncPutJoin.concat("\n").getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
-
-
-    }
-
 
 }
