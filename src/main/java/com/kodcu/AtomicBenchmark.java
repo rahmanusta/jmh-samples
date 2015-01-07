@@ -115,61 +115,6 @@ public class AtomicBenchmark {
         System.out.println(syncPutJoin);
         Files.write(Paths.get("./adder-total-output.txt"),syncPutJoin.getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
 
-        //////////////
-
-
-
-        results = new LinkedList<>();
-
-        for (Integer t : collect) {
-            Options opt = new OptionsBuilder()
-                    .include(RandomBenchmark.class.getSimpleName())
-                    .output("random-" + t + "-output.txt")
-                    .threads(t)
-                    .build();
-
-            Collection<RunResult> run = new Runner(opt).run();
-
-            results.add(run);
-
-        }
-
-        for (Collection<RunResult> result : results) {
-            for (RunResult runResult : result) {
-                Result primaryResult = runResult.getPrimaryResult();
-
-                String th = "Th: " + runResult.getParams().getThreads() + " - " + primaryResult.getLabel() + " - " + primaryResult.getScore();
-                Files.write(Paths.get("./random-total-output.txt"),th.getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
-                System.out.println(th);
-            }
-        }
-
-
-       collect1 = results.stream().flatMap(Collection::stream).collect(Collectors.toList());
-
-        connPut = collect1.stream().filter(r -> r.getPrimaryResult().getLabel().equals("classicRandom"))
-                .map(r -> r.getPrimaryResult().getScore()).map(String::valueOf).collect(Collectors.toList());
-
-        connPutJoin = String.join(",", connPut);
-
-        System.out.println(connPutJoin);
-
-        Files.write(Paths.get("./random-total-output.txt"),connPutJoin.concat("\n").getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
-
-        syncPut = collect1.stream().filter(r -> r.getPrimaryResult().getLabel().equals("threadLocalRandom"))
-                .map(r -> r.getPrimaryResult().getScore()).map(String::valueOf).collect(Collectors.toList());
-
-        syncPutJoin = String.join(",", syncPut);
-
-        System.out.println(syncPutJoin);
-        Files.write(Paths.get("./random-total-output.txt"),syncPutJoin.concat("\n").getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
-
-
-
-        //// Runtime.getRuntime().exec("sudo halt");
-        Runtime.getRuntime().exec("sudo halt");
-
-
     }
 
 

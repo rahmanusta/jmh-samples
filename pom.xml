@@ -96,7 +96,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
                             <finalName>${uberjar.name}</finalName>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.openjdk.jmh.Main</mainClass>
+                                    <mainClass>com.kodcu.Starter</mainClass>
                                 </transformer>
                             </transformers>
                             <filters>
