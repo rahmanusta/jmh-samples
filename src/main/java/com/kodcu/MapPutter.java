@@ -32,7 +32,7 @@ public class MapPutter {
     private Map<Integer, Integer> concurrentMap;
 
     private static final int N = 2_000_000;
-    private static final int THREAD_COUNT = 2_000_000;
+    private static final int THREAD_COUNT = 32;
     private static final int ITERATION_COUNT = 10;
     private static final int WARMUP_COUNT = 10;
     private static final int FORK_COUNT = 3;
