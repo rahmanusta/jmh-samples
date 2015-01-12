@@ -69,32 +69,4 @@ public class MapPutter {
         return result;
     }
 
-    public static void main(String[] args) throws IOException, RunnerException {
-
-        List<Integer> collect = IntStream.rangeClosed(1, THREAD_COUNT)
-                .boxed().collect(Collectors.toList());
-
-        List<Collection<RunResult>> results = new LinkedList<>();
-
-        for (Integer t : collect) {
-            Options opt = new OptionsBuilder()
-                    .include(MapPutter.class.getSimpleName())
-                    .threads(t)
-                    .build();
-
-            Collection<RunResult> run = new Runner(opt).run();
-
-            results.add(run);
-
-        }
-
-        for (Collection<RunResult> result : results) {
-            for (RunResult runResult : result) {
-                Result primaryResult = runResult.getPrimaryResult();
-                System.out.println("Th: " + runResult.getParams().getThreads() + " - " + primaryResult.getLabel() + " - " + primaryResult.getScore());
-            }
-        }
-
-
-    }
 }

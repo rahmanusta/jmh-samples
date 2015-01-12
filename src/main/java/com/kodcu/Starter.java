@@ -84,6 +84,7 @@ public class Starter {
         Starter starter = new Starter();
         starter.start(RandomBenchmark.class.getSimpleName(),32,"classicRandom","threadLocalRandom");
         starter.start(AtomicBenchmark.class.getSimpleName(),32,"atomicIncrement","adderIncrement");
+        starter.start(MapPutter.class.getSimpleName(),32,"syncPut","connPut");
 
         Runtime.getRuntime().exec("sudo halt");
 
