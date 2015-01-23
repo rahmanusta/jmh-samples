@@ -3,11 +3,9 @@ package com.kodcu;
 import org.openjdk.jmh.results.Result;
 import org.openjdk.jmh.results.RunResult;
 import org.openjdk.jmh.runner.Runner;
-import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
-import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -24,7 +22,7 @@ import static java.nio.file.StandardOpenOption.*;
  */
 public class Starter {
 
-    public void start(String benchmarkClass, int threadCount,String... benchmarkNames) throws Exception {
+    public void start(String benchmarkClass, int threadCount, String... benchmarkNames) throws Exception {
 
         List<Integer> threadRange = IntStream.rangeClosed(1, threadCount)
                 .boxed().collect(Collectors.toList());
@@ -65,14 +63,14 @@ public class Starter {
 
         for (String benchmarkName : benchmarkNames) {
             List<String> filteredResult = allResults.stream()
-                                    .filter(r -> r.getPrimaryResult().getLabel().equals(benchmarkName))
+                    .filter(r -> r.getPrimaryResult().getLabel().equals(benchmarkName))
                     .map(r -> r.getPrimaryResult().getScore())
                     .map(String::valueOf).collect(Collectors.toList());
 
             String joinedResult = String.join(",", filteredResult);
-            joinedResult = "\n"+"\t"+benchmarkName+"\t"+joinedResult+"\n";
+            joinedResult = "\n" + "\t" + benchmarkName + "\t" + joinedResult + "\n";
 
-            Files.write(Paths.get("./"+benchmarkClass+"-total-output.txt"), joinedResult.getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
+            Files.write(Paths.get("./" + benchmarkClass + "-total-output.txt"), joinedResult.getBytes(Charset.forName("UTF-8")), APPEND, WRITE, CREATE);
         }
 
     }
@@ -82,9 +80,11 @@ public class Starter {
         System.out.println("Started");
 
         Starter starter = new Starter();
-        starter.start(RandomBenchmark.class.getSimpleName(),32,"classicRandom","threadLocalRandom");
-        starter.start(AtomicBenchmark.class.getSimpleName(),32,"atomicIncrement","adderIncrement");
-        starter.start(MapPutter.class.getSimpleName(),32,"syncPut","connPut");
+
+//        starter.start(RandomBenchmark.class.getSimpleName(), 32, "classicRandom", "threadLocalRandom");
+        starter.start(AtomicBenchmark.class.getSimpleName(), 32, "classicIncrement", "atomicIncrement", "adderIncrement");
+//        starter.start(MapPutter.class.getSimpleName(), 32, "syncPut", "connPut");
+
 
         Runtime.getRuntime().exec("sudo halt");
 

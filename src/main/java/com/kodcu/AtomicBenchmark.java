@@ -34,6 +34,7 @@ import static java.nio.file.StandardOpenOption.APPEND;
 @State(value = Scope.Benchmark)
 public class AtomicBenchmark {
 
+    private Counter counter;
     private AtomicLong atomicInteger;
     private LongAdder longAdder;
 
@@ -43,28 +44,35 @@ public class AtomicBenchmark {
 
     @Setup
     public void init() {
+        counter = new Counter(0);
         atomicInteger = new AtomicLong(0);
         longAdder = new LongAdder();
     }
 
-
     @Benchmark
     @Fork(value = FORK_COUNT)
     @Warmup(iterations = WARMUP_COUNT)
     @Measurement(iterations = ITERATION_COUNT)
-    public void atomicIncrement(Blackhole hole) {
-        hole.consume(atomicInteger.incrementAndGet());
+    public void classicIncrement() {
+        counter.increment();
     }
 
     @Benchmark
     @Fork(value = FORK_COUNT)
     @Warmup(iterations = WARMUP_COUNT)
     @Measurement(iterations = ITERATION_COUNT)
-    public void adderIncrement(Blackhole hole) {
+    public void atomicIncrement() {
+        atomicInteger.incrementAndGet();
+    }
+
+
+    @Benchmark
+    @Fork(value = FORK_COUNT)
+    @Warmup(iterations = WARMUP_COUNT)
+    @Measurement(iterations = ITERATION_COUNT)
+    public void adderIncrement() {
         longAdder.increment();
     }
-
-
 
 
 }
